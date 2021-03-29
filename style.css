@@ -30,7 +30,7 @@ a:hover {
 }
 
 .btn-2 {
-    background: blueviolet;
+    background: white;
 }
 
 .btn-3 {
@@ -45,8 +45,8 @@ a:hover {
     background: whitesmoke;
 }
 
-.btn-5:hover {
-    background: rgb(133, 8, 133);
+.btn-2:hover {
+    background: white);
 }
 
 .btn-3:hover {
