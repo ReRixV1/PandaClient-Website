@@ -53,3 +53,12 @@ a:hover {
 .btn-3:hover {
     background: rgb(131, 5, 5);
 }
+
+.secrr {
+    background: white;
+    color: black;
+}
+
+.secrr:hover {
+    background: white;
+}
