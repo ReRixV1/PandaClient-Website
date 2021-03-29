@@ -16,7 +16,7 @@ body {
 a {
     display: block;
     background: #1B99C6;
-    color: #FFF;
+    color: black;
     padding: 15px;
     cursor: pointer;
     text-decoration: none;
@@ -31,6 +31,7 @@ a:hover {
 
 .btn-2 {
     background: white;
+    color: black;
 }
 
 .btn-3 {
@@ -46,7 +47,7 @@ a:hover {
 }
 
 .btn-2:hover {
-    background: red);
+    background: white;
 }
 
 .btn-3:hover {
