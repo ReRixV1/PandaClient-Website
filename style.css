@@ -1,91 +1,92 @@
 *{
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    font-family: sans-serif;
-}
-a {
-    display: block;
-    background: #1B99C6;
-    color: black;
-    padding: 15px;
-    cursor: pointer;
-    text-decoration: none;
-    width: 320px;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 20px;
-}
-a:hover {
-    background: #0D779D;
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: url(background.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+	
 }
 
-.btn-2 {
-    background: white;
-    color: black;
+.logo{
+	width: 200px;
+	cursor: pointer;
 }
 
-.btn-3 {
-    background: red;
+.navbar{
+	width: 85%;
+	height: 15%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
 }
 
-.btn-1 {
-    background: white;
-    color: black;
-}
-.btn-1:hover {
-    background: whitesmoke;
-}
-
-.btn-2:hover {
-    background: white;
+button{
+	color: #fbfcfd;
+	padding: 10px 25px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
 }
 
-.btn-3:hover {
-    background: rgb(131, 5, 5);
+.content{
+	color: #fbfcfd;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	z-index: 2;
 }
 
-.secrr {
-    background: white;
-    color: black;
+h1{
+	font-size: 80px;
+	margin: 10px 0 30px;
+	line-height: 80px;
+	
 }
 
-.secrr:hover {
-    background: white;
+small{
+	font-size: 25px;
 }
 
-.btnAU {
-    background: white;
+.side-bar{
+	width: 50px;
+	height: 100vh;
+	background: linear-gradient(#FFFFFF, #000000);
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
-.btnAU:hover {
-    background: white;
+.menu{
+	display: block;
+	width: 50px;
+	margin: 40px auto 0;
+	cursor: pointer;	
 }
 
-.btnDI {
-    background: white;
+.social-links img{
+	width: 25px;
+	margin: 5px auto;
+	cursor: pointer;
+	
 }
 
-.Design {
-    background: white;
-}
-.Design:hover {
-    background: white;
-}
-
-.Prog {
-    background: white;
-}
-
-.Prog:hover {
-    background: white;
+.social-links{
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
 }
